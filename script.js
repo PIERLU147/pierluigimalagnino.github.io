@@ -1,5 +1,5 @@
 /* =========================================================
-   Pierluigi Malagnino - Bilingual (IT/EN), Theme & Contact Form
+   Pierluigi Malagnino - Bilingual (IT/EN), Dynamic CV, Theme & Form
    ========================================================= */
 
 const translations = {
@@ -21,6 +21,7 @@ const translations = {
     about_p3: "Sono una persona gentile, disponibile e abituata al contatto diretto con il pubblico. Nei miei precedenti lavori tra accoglienza e manutenzione tecnica ho imparato a gestire le priorità con calma, comunicare in modo chiaro anche in inglese (livello B2) e collaborare con i colleghi per risolvere i problemi senza perdere tempo.",
     btn_linkedin: "Profilo LinkedIn",
     btn_cv: "Scarica il CV (PDF)",
+    cv_file: "CV-Pierluigi-Malagnino-IT.pdf",
     explore_label: "Esplora le sezioni",
 
     // Home Section Cards
@@ -157,6 +158,7 @@ const translations = {
     about_p3: "I am polite, approachable, and comfortable dealing directly with people. Through previous roles in hospitality front-desk operations and technical maintenance, I learned how to prioritize under pressure, communicate clearly in English (B2 certified), and collaborate effectively with teammates to solve issues quickly.",
     btn_linkedin: "LinkedIn Profile",
     btn_cv: "Download CV (PDF)",
+    cv_file: "CV-Pierluigi-Malagnino-EN.pdf",
     explore_label: "Explore sections",
 
     // Home Section Cards
@@ -300,6 +302,12 @@ function applyLanguage(lang) {
     if (dict[key]) {
       el.setAttribute("placeholder", dict[key]);
     }
+  });
+
+  // Update CV download link & filename dynamically based on selected language
+  document.querySelectorAll("[data-cv-link]").forEach((el) => {
+    el.setAttribute("href", dict.cv_file);
+    el.setAttribute("download", dict.cv_file);
   });
 
   const langBtn = document.getElementById("lang-toggle");
