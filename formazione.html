@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pierluigi Malagnino · Formazione</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        <span>Pierluigi Malagnino</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="index.html" data-i18n="nav_about">Chi sono</a>
+        <a href="formazione.html" class="active" data-i18n="nav_education">Formazione</a>
+        <a href="esperienze.html" data-i18n="nav_experience">Esperienze</a>
+        <a href="competenze.html" data-i18n="nav_skills">Competenze</a>
+        <a href="interessi.html" data-i18n="nav_interests">Interessi</a>
+        <a href="contatti.html" data-i18n="nav_contact">Contatti</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button id="lang-toggle" class="icon-btn" type="button">EN</button>
+        <button id="theme-toggle" class="icon-btn" type="button">🌙</button>
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" type="button" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <a href="index.html" class="back-link" data-i18n="back_home">← Torna a Chi sono</a>
+      <h1 data-i18n="edu_page_title">Formazione e Certificazioni</h1>
+      <p class="subtitle" style="margin-bottom:0;" data-i18n="edu_page_sub">Il mio percorso di studi tecnici, universitari e le certificazioni conseguite.</p>
+    </div>
+
+    <div class="stack-list">
+      <div class="card">
+        <div class="item-header">
+          <h3 data-i18n="edu_uni_title">Corso di Laurea in Ingegneria Informatica</h3>
+          <span class="item-date" data-i18n="edu_uni_date">2026 – In corso (1° anno)</span>
+        </div>
+        <div class="item-org" data-i18n="edu_uni_org">Università del Salento – Lecce</div>
+        <p style="margin-top:0.65rem; color:var(--text-muted); margin-bottom:0;" data-i18n="edu_uni_desc">Approfondimento delle basi di programmazione, architettura degli elaboratori e analisi matematica, affiancando lo studio teorico alla pratica personale su reti e sistemi.</p>
+      </div>
+
+      <div class="card">
+        <div class="item-header">
+          <h3 data-i18n="edu_hs_title">Diploma Tecnico in Informatica e Telecomunicazioni</h3>
+          <span class="item-date" data-i18n="edu_hs_date">Conseguito nel 2026</span>
+        </div>
+        <div class="item-org" data-i18n="edu_hs_org">Istituto Tecnico Tecnologico Mucci</div>
+        <p style="margin-top:0.65rem; color:var(--text-muted); margin-bottom:0;" data-i18n="edu_hs_desc">Percorso quinquennale incentrato su architetture di rete, sistemi operativi, programmazione orientata agli oggetti, progettazione di database relazionali, elettronica e manutenzione hardware.</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:2.25rem;" data-i18n="cisco_section_title">Corsi Cisco Networking Academy & Lingue</h2>
+    <div class="skills-grid">
+      <div class="card">
+        <h3 data-i18n="cisco_iot_title">Cisco: Introduction to IoT</h3>
+        <p style="color:var(--text-muted); font-size:0.93rem; margin-bottom:0;" data-i18n="cisco_iot_desc">Fondamenti delle architetture Internet of Things, sensori, dispositivi connessi e comunicazione su rete.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="cisco_gc_title">Cisco: Get Connected</h3>
+        <p style="color:var(--text-muted); font-size:0.93rem; margin-bottom:0;" data-i18n="cisco_gc_desc">Competenze fondamentali sui sistemi informatici, configurazione di rete e sicurezza digitale di base.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="lang_cert_title">Certificazione Cambridge English B2</h3>
+        <p style="color:var(--text-muted); font-size:0.93rem; margin-bottom:0;" data-i18n="lang_cert_desc">Comprensione e produzione scritta e orale di livello intermedio-avanzato, utile per consultare documentazione tecnica e fornire supporto IT anche a utenti internazionali.</p>
+      </div>
+    </div>
+
+    <div class="page-nav-footer">
+      <a href="index.html" class="btn btn-secondary" data-i18n="back_home">← Torna a Chi sono</a>
+      <a href="esperienze.html" class="btn btn-primary"><span data-i18n="nav_experience">Esperienze</span> →</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span data-i18n="footer_text">© 2026 Pierluigi Malagnino · Realizzato per candidature in ambito IT & Telecomunicazioni.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

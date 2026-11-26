@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pierluigi Malagnino · Interessi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        <span>Pierluigi Malagnino</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="index.html" data-i18n="nav_about">Chi sono</a>
+        <a href="formazione.html" data-i18n="nav_education">Formazione</a>
+        <a href="esperienze.html" data-i18n="nav_experience">Esperienze</a>
+        <a href="competenze.html" data-i18n="nav_skills">Competenze</a>
+        <a href="interessi.html" class="active" data-i18n="nav_interests">Interessi</a>
+        <a href="contatti.html" data-i18n="nav_contact">Contatti</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button id="lang-toggle" class="icon-btn" type="button">EN</button>
+        <button id="theme-toggle" class="icon-btn" type="button">🌙</button>
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" type="button" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <a href="index.html" class="back-link" data-i18n="back_home">← Torna a Chi sono</a>
+      <h1 data-i18n="int_page_title">Interessi e Passioni</h1>
+      <p class="subtitle" style="margin-bottom:0;" data-i18n="int_page_sub">Cosa mi appassiona nel tempo libero e come alimenta il mio modo di ragionare.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="card">
+        <h3 data-i18n="int1_title">Smanettare al PC & HomeLab</h3>
+        <p style="color:var(--text-muted); font-size:0.94rem; margin-bottom:0;" data-i18n="int1_desc">La soddisfazione più grande per me è costruire qualcosa di mio al computer: configurare servizi in rete locale nel mio piccolo HomeLab, provare nuove soluzioni software, ottimizzare sistemi e sperimentare con l'Intelligenza Artificiale per risolvere problemi concreti.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="int2_title">Sport e Pallavolo</h3>
+        <p style="color:var(--text-muted); font-size:0.94rem; margin-bottom:0;" data-i18n="int2_desc">Pratico sport con regolarità, in particolare la pallavolo. È uno sport in cui non esiste il singolo isolato: servono lettura rapida dell'azione, comunicazione costante con i compagni e prontezza nel reagire in una frazione di secondo.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="int3_title">Videogiochi</h3>
+        <p style="color:var(--text-muted); font-size:0.94rem; margin-bottom:0;" data-i18n="int3_desc">Mi appassionano i videogiochi, sia come momento di svago sia per la componente strategica e tecnica. Analizzare meccaniche complesse, ottimizzare le prestazioni hardware e capire come funzionano i sistemi dietro le quinte fa parte della mia curiosità naturale.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="int4_title">Fiction e Narrazione</h3>
+        <p style="color:var(--text-muted); font-size:0.94rem; margin-bottom:0;" data-i18n="int4_desc">Seguo con interesse serie, film e opere di fiction. Mi piacciono le storie ben costruite che stimolano l'immaginazione e offrono punti di vista diversi su tecnologia, società e risoluzione di situazioni complesse.</p>
+      </div>
+    </div>
+
+    <div class="page-nav-footer">
+      <a href="competenze.html" class="btn btn-secondary">← <span data-i18n="nav_skills">Competenze</span></a>
+      <a href="contatti.html" class="btn btn-primary"><span data-i18n="nav_contact">Contatti</span> →</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span data-i18n="footer_text">© 2026 Pierluigi Malagnino · Realizzato per candidature in ambito IT & Telecomunicazioni.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

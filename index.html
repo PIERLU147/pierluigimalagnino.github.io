@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pierluigi Malagnino · Chi sono</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        <span>Pierluigi Malagnino</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="active" data-i18n="nav_about">Chi sono</a>
+        <a href="formazione.html" data-i18n="nav_education">Formazione</a>
+        <a href="esperienze.html" data-i18n="nav_experience">Esperienze</a>
+        <a href="competenze.html" data-i18n="nav_skills">Competenze</a>
+        <a href="interessi.html" data-i18n="nav_interests">Interessi</a>
+        <a href="contatti.html" data-i18n="nav_contact">Contatti</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button id="lang-toggle" class="icon-btn" type="button">EN</button>
+        <button id="theme-toggle" class="icon-btn" type="button">🌙</button>
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" type="button" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="status-badge">
+        <span class="status-pulse"></span>
+        <span data-i18n="status_badge">Disponibile per ruoli Junior IT Support & Help Desk</span>
+      </div>
+
+      <h1>Pierluigi Malagnino</h1>
+      <p class="subtitle" data-i18n="hero_subtitle">Studente di Ingegneria Informatica · Junior IT Support & Technical Specialist</p>
+
+      <div class="card about-box">
+        <p data-i18n="about_p1">Ho 19 anni, sono diplomato in Informatica e Telecomunicazioni e attualmente frequento il primo anno di Ingegneria Informatica presso l’Università del Salento. Sto cercando la mia prima esperienza professionale nel settore IT dove poter mettere a frutto le mie basi tecniche e continuare a crescere sul campo.</p>
+        <p data-i18n="about_p2">Ho un approccio molto intuitivo ai sistemi: mi riesce naturale riconoscere schemi ricorrenti (pattern recognition) e risalire alla causa di un malfunzionamento con metodo e rapidità. Quando qualcosa non funziona, non mi limito a cercare una toppa temporanea, ma voglio capire perché è successo.</p>
+        <p data-i18n="about_p3">Sono una persona gentile, disponibile e abituata al contatto diretto con il pubblico. Nei miei precedenti lavori tra accoglienza e manutenzione tecnica ho imparato a gestire le priorità con calma, comunicare in modo chiaro anche in inglese (livello B2) e collaborare con i colleghi per risolvere i problemi senza perdere tempo.</p>
+      </div>
+
+      <div class="action-row">
+        <a href="https://www.linkedin.com/in/pierluigi-malagnino-aba4a6394" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          <span data-i18n="btn_linkedin">Profilo LinkedIn</span>
+        </a>
+        <a href="CV-Pierluigi-Malagnino.pdf" download class="btn btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span data-i18n="btn_cv">Scarica il CV (PDF)</span>
+        </a>
+      </div>
+
+      <div class="section-label" data-i18n="explore_label">Esplora le sezioni</div>
+      <div class="nav-cards-grid">
+        <a href="formazione.html" class="nav-card">
+          <div class="nav-card-top">
+            <span class="nav-card-title" data-i18n="card_edu_title">Formazione</span>
+            <span class="nav-card-arrow">→</span>
+          </div>
+          <p class="nav-card-desc" data-i18n="card_edu_desc">Laurea in corso in Ingegneria Informatica, diploma tecnico e corsi Cisco Networking Academy.</p>
+        </a>
+
+        <a href="esperienze.html" class="nav-card">
+          <div class="nav-card-top">
+            <span class="nav-card-title" data-i18n="card_exp_title">Esperienze</span>
+            <span class="nav-card-arrow">→</span>
+          </div>
+          <p class="nav-card-desc" data-i18n="card_exp_desc">Esperienze lavorative tra front-office, assistenza agli utenti e manutenzione tecnica sul campo.</p>
+        </a>
+
+        <a href="competenze.html" class="nav-card">
+          <div class="nav-card-top">
+            <span class="nav-card-title" data-i18n="card_skills_title">Competenze</span>
+            <span class="nav-card-arrow">→</span>
+          </div>
+          <p class="nav-card-desc" data-i18n="card_skills_desc">Reti TCP/IP, sistemi operativi, hardware, programmazione, database e troubleshooting assistito da AI.</p>
+        </a>
+
+        <a href="interessi.html" class="nav-card">
+          <div class="nav-card-top">
+            <span class="nav-card-title" data-i18n="card_int_title">Interessi</span>
+            <span class="nav-card-arrow">→</span>
+          </div>
+          <p class="nav-card-desc" data-i18n="card_int_desc">HomeLab e progetti al PC, pallavolo, videogiochi e narrativa fiction.</p>
+        </a>
+
+        <a href="contatti.html" class="nav-card">
+          <div class="nav-card-top">
+            <span class="nav-card-title" data-i18n="card_cont_title">Contatti</span>
+            <span class="nav-card-arrow">→</span>
+          </div>
+          <p class="nav-card-desc" data-i18n="card_cont_desc">Scrivimi direttamente tramite il modulo online oppure trova i miei recapiti diretti.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span data-i18n="footer_text">© 2026 Pierluigi Malagnino · Realizzato per candidature in ambito IT & Telecomunicazioni.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

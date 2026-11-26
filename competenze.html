@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pierluigi Malagnino · Competenze</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        <span>Pierluigi Malagnino</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="index.html" data-i18n="nav_about">Chi sono</a>
+        <a href="formazione.html" data-i18n="nav_education">Formazione</a>
+        <a href="esperienze.html" data-i18n="nav_experience">Esperienze</a>
+        <a href="competenze.html" class="active" data-i18n="nav_skills">Competenze</a>
+        <a href="interessi.html" data-i18n="nav_interests">Interessi</a>
+        <a href="contatti.html" data-i18n="nav_contact">Contatti</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button id="lang-toggle" class="icon-btn" type="button">EN</button>
+        <button id="theme-toggle" class="icon-btn" type="button">🌙</button>
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" type="button" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <a href="index.html" class="back-link" data-i18n="back_home">← Torna a Chi sono</a>
+      <h1 data-i18n="skills_page_title">Competenze Tecniche e Trasversali</h1>
+      <p class="subtitle" style="margin-bottom:0;" data-i18n="skills_page_sub">Strumenti, tecnologie e metodologie che utilizzo nello studio e nei miei progetti pratici.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="card">
+        <h3 data-i18n="sk_os_title">Sistemi Operativi</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem;" data-i18n="sk_os_desc">Installazione pulita, configurazione ambienti utente, partizionamento e gestione driver.</p>
+        <div class="tag-row">
+          <span class="tag">Windows 10</span>
+          <span class="tag">Windows 11</span>
+          <span class="tag">macOS</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="sk_hw_title">Hardware & Diagnostica</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem;" data-i18n="sk_hw_desc">Assemblaggio PC desktop, sostituzione componenti (RAM, SSD, schede), configurazione periferiche, troubleshooting hardware/software e gestione di un piccolo HomeLab domestico.</p>
+        <div class="tag-row">
+          <span class="tag">PC Building</span>
+          <span class="tag">Troubleshooting</span>
+          <span class="tag">HomeLab</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="sk_net_title">Reti & Telecomunicazioni</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem;" data-i18n="sk_net_desc">Configurazione modem/router Wi-Fi, cablaggio Ethernet e diagnostica della connettività locale.</p>
+        <div class="tag-row">
+          <span class="tag">TCP/IP</span>
+          <span class="tag">Subnetting</span>
+          <span class="tag">DNS</span>
+          <span class="tag">DHCP</span>
+          <span class="tag">Wi-Fi / Ethernet</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="sk_dev_title">Programmazione & Web</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem;" data-i18n="sk_dev_desc">Logica algoritmica, programmazione strutturata e a oggetti, sviluppo di pagine web e script.</p>
+        <div class="tag-row">
+          <span class="tag">C++</span>
+          <span class="tag">Java</span>
+          <span class="tag">Python</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="sk_db_title">Database</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem;" data-i18n="sk_db_desc">Progettazione concettuale (modello ER), logica e implementazione pratica di basi di dati relazionali.</p>
+        <div class="tag-row">
+          <span class="tag">MySQL</span>
+          <span class="tag">WAMP</span>
+          <span class="tag">SQL</span>
+          <span class="tag">ER Design</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="sk_soft_title">Software & Strumenti</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem;" data-i18n="sk_soft_desc">Pacchetto Office, Desktop Remoto (RDP / teleassistenza), software gestionali e utilizzo avanzato di strumenti AI per velocizzare troubleshooting e analisi dei problemi.</p>
+        <div class="tag-row">
+          <span class="tag">Microsoft Office</span>
+          <span class="tag">Remote Desktop (RDP)</span>
+          <span class="tag">AI Diagnostics</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 data-i18n="soft_skills_title">Approccio e Competenze Trasversali</h3>
+      <p style="color:var(--text-muted); font-size:0.93rem;" data-i18n="soft_skills_desc">Quello che porto nel team oltre alle conoscenze tecniche:</p>
+      <div class="tag-row">
+        <span class="tag tag-accent" data-i18n="ss_1">Pattern recognition & Problem solving</span>
+        <span class="tag tag-accent" data-i18n="ss_2">Approccio pratico e intuitivo</span>
+        <span class="tag tag-accent" data-i18n="ss_3">Orientamento all'utente (Customer Care)</span>
+        <span class="tag tag-accent" data-i18n="ss_4">Apprendimento rapido sul campo</span>
+        <span class="tag tag-accent" data-i18n="ss_5">Gestione delle priorità</span>
+        <span class="tag tag-accent" data-i18n="ss_6">Lavoro in team e comunicazione chiara</span>
+        <span class="tag tag-accent" data-i18n="ss_7">Italiano (Madrelingua) · Inglese B2 (Cambridge)</span>
+      </div>
+    </div>
+
+    <div class="page-nav-footer">
+      <a href="esperienze.html" class="btn btn-secondary">← <span data-i18n="nav_experience">Esperienze</span></a>
+      <a href="interessi.html" class="btn btn-primary"><span data-i18n="nav_interests">Interessi</span> →</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span data-i18n="footer_text">© 2026 Pierluigi Malagnino · Realizzato per candidature in ambito IT & Telecomunicazioni.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
